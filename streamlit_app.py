@@ -94,8 +94,9 @@ with tab3:
     """)
 
 # --- القائمة الجانبية ---
-st.sidebar.image("https://www.det.gov.ae/en/assets/images/logo.png", width=150) # مثال لرابط شعار
-st.sidebar.title("إعدادات المفتش")
+# شعار حماية المستهلك الرسمي (بدل الشعار القديم)
+st.sidebar.image("https://consumerrights.gov.ae/assets/images/consumer-rights-logo.png", width=180)  
+# أو استخدم الرابط اللي حملته من الموقع الرسميst.sidebar.title("إعدادات المفتش")
 st.sidebar.write("رقم المفتش: **DXB-990**")
 st.sidebar.markdown("---")
 st.sidebar.write("إصدار المفتشين - النسخة الذهبية 1.1 (محدثة مع تصحيحات القانون الاتحادي)")
