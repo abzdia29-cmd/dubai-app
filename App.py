@@ -1,5 +1,5 @@
-import streamlit as st
-import pandas as pd
+ streamlit as st
+imprt pandas as pd
 from datetime import datetime
 
 # --- 1. إعدادات الصفحة والهوية البصرية ---
